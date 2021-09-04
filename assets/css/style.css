@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+/* Mobile Version */
+body {
+    margin: auto;
+    background-color:  #F8F8FF;
+    font-family:monospace;
+    overflow-x: hidden;
+    width: 100%;
+} .container {
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 535px;
+    background-attachment: fixed;
+} a {
+    text-decoration: none;
+    color: white;
+} nav {
+    background-color:  rgb(0, 0, 0);
+    margin-bottom: 0px;
+    margin-top: -13px;
+    color: black;
+    height: 60px;
+} .top-container {
+    margin-top: -45px;
+    padding: 10px;
+    padding-top: 30px;
+    color: white;
+} nav > ul > li:not(#img) {
+    visibility: hidden;
+} nav > ul > li > img {
+    position: absolute;
+    margin-top: 20px;
+} .build {
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 40px;
+} h1 {
+    margin-top: -18px;
+} h4 {
+    font-family: "Fira Sans";
+} .parf > ul > li {
+    margin: 15px 0;
+    font-size: 17px;
+} .parf > ul {
+    margin-top: 60px;
+} .preorder {
+    display: flex;
+    float: left;
+    margin-right: 60px;
+} .preorder, .fastwork {
+    margin-top: 60px;
+    background-color: rgb(170, 36, 130);
+    padding: 20px;
+    border-radius: 5px;
+} .preorder:hover {
+    background-color: transparent;
+    border-color: tomato;
+    border-width: 2px;
+    border-style: solid;
+    transition: 0.3s;
+} .parf > ul {
+    margin-left: -20px;
+} .btn-nav {
+    margin: 20px;
+    display: flexbox;
+    float: right;
+    background-color: black;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    margin-top: -70px;
+} nav > .sig > li {
+    visibility: hidden;
+} .bungkus {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+/* Style div content */
+.content {
+    margin-top: 240px;
+}  .content > h3 {
+    font-family: "Fira Sans", sans-serif;
+} .content > p {
+    font-family: "Roboto", sans-serif;
+} .moreProduct {
+    font-family: "Roboto";
+} .bungkus {
+    margin-top: 80px
+} a > p {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(228, 228, 228);
+} .bungkus > img {
+    width: 350px;
+    border-radius: 2px;
+}
+/* Back To Top */
+.backTop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-block;  
+    padding: 1px;
+    margin: 1em;
+    font-size: 40px;
+    transform: rotate(270deg);
+  }
+  .backTop:hover {
+    cursor: pointer;
+  }
+  /* Pricing styles */
+.columns {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    padding: 15px;
+}
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* global ~ mobile*/
+
+.konten {
+  padding: 20px;
+}
+
+.konten>h3 {
+  text-align: center;
+  font-family: "Fira Sans";
+}
+
+.border {
+  margin: 12px;
+  padding: 6%;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: rgb(223, 222, 222) 0.4px 0.4px 14px 1px;
+}
+
+.border > img {
+    height: auto;
+    width: 90px;
+    margin: auto;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.border>label {
+  display: block;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-weight: bold;
+}
+
+.border > p {
+    font-family: "Rooboto";
+    color: #707792;
+
+}
+
+.border:hover {
+  margin: 10px;
+  transition: 0.5s;
+}
+
+/* .block-content {
+  display: flex;
+  float: left;
+} .bungkus {
+  margin-right: -10px;
+  margin-left: -10px;
+} .block {
+  padding: 50px;
+  text-align: center;
+  margin: 0 auto;
+}  */
+
+/* tab */
+@media (min-width: 500px) and (max-width: 800px) {
+  .konten-kolom {
+    display: block;
+  }
+
+  .tab {
+    display: flex;
+  }
+
+  .border {
+    width: 50%;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 800px){
+  .konten-kolom {
+    display: flex;
+  } .tab {
+    display: flex;
+    width: 50%;
+  }
+}
+
+/* keyframe for border hover */
+@keyframes identifier {}
+
+/* hp porttrait */
+@media (max-width: 400px) {
+    .bungkus img {
+        width: 100%;
+    } .container {
+        height: 600px;
+    } .column {
+        width: 100%;
+        display: flex;
+    } .columns {
+        width: 100%;
+    } .Certifield > h3 {
+        margin-top: 240%;
+    } .contact > h3 {
+        margin-top: 10px;
+    } .contact {
+        margin-top: 900px;
+    } .border > p {
+      text-align: center;
+    }
+}
+
+/* large pphone */
+@media (min-width: 400px) and (max-width: 615px){
+    .column {
+        width: 100%;
+    }
+    .columns {
+        width: 100%;
+    }
+    .Certifield > h3 {
+        margin-top: 250%;
+    } .contact {
+        margin-top: 250%;
+    }
+}
+
+/* hp landscape */
+@media (min-width: 615px) and (max-width: 884px){
+    .column {
+        width: 23%;
+        margin: 1% 0;
+    } .container {
+        height: 500px;
+    }
+}
+
+/* desktop Version */
+@media (min-width: 884px) and (max-width: 1200px){
+    nav > ul > li:not(#img) {
+        visibility: visible;
+        display: flex;
+        float: left;
+        margin-left: 40px;
+        margin-top: 5px;
+    } .top-container {
+        margin-top: 0px;
+    } nav {
+        height: 60px;
+    } nav > ul:not(#img) {
+        margin-left: 90px;
+        nav-index: auto;
+    } #img {
+        position: relative;
+        top: 22px;
+        right: 80px;
+        width: 70px;
+    } a {
+        text-decoration: none;
+        cursor: pointer;
+    } .btn-nav {
+        visibility: hidden;
+    } nav > ul > li > img {
+        list-style: none;
+        position: absolute;
+        margin-top: 0px;
+    } .content {
+        display: block;
+        justify-content: center;
+        margin-top: 230px;
+        padding: 10px;
+    } .content > p {
+        font-size: 15px;
+    } .bungkus > img {
+        width: 600px;
+        border-radius: 2px;
+    }
+}
+
+
+
+
+
+/* Desktop Version */
+@media (min-width: 1200px){
+    body {
+        width: 1360px;
+    }
+    nav > ul > li:not(#img) {
+        visibility: visible;
+        display: flex;
+        float: left;
+        margin-left: 40px;
+        margin-top: 5px;
+    } .top-container {
+        margin-top: 0px;
+    } nav {
+        height: 60px;
+    } nav > ul:not(#img) {
+        margin-left: 90px;
+        nav-index: auto;
+    } #img {
+        position: relative;
+        top: 22px;
+        right: 80px;
+        width: 70px;
+    } a {
+        text-decoration: none;
+        cursor: pointer;
+    } .btn-nav {
+        visibility: hidden;
+    } .content {
+        display: block;
+        justify-content: center;
+        margin-top: 240px;
+        padding: 10px;
+    } .content > p {
+        font-size: 15px;
+    } nav > ul > li > img {
+        list-style: none;
+        position: absolute;
+        margin-top: 0px;
+    } .block-content {
+        display: flex;
+        float: left;
+    } .bungkus {
+        margin-right: -10px;
+        margin-left: -10px;
+    } .block {
+        padding: 50px;
+        text-align: center;
+        margin: 0 auto;
+    } .bungkus > img {
+        width: 350px;
+        border-radius: 2px;
+    }
+}
+
+/* our technology style*/
+/* global ver desktop */
+html, body {
+    margin: auto;
+  } .teknoList {
+    margin-bottom: 10%;
+  } .teknoList > h3 {
+    font-family: "Fira Sans";
+    text-align: center;
+  } .teknoKonten {
+    display: flex;
+    width: 100%;
+  }
+
+  .logoGrid {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto; /* 3 kolom*/
+    grid-template-rows: auto auto auto; /* 3 baris*/
+  } .logoGrid > img {
+    width: 60%;
+    height: 60%;
+    padding: 10%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+  } .logoGrid > img:hover {
+    box-shadow: rgb(194, 194, 194) 0.1px 0.1px 14px 0.1px;
+    transition: 0.5s;
+  } .technoAlert > h4 {
+    font-size: 600%;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: 0%;
+    font-family: "Fira Sans";
+  } .technoAlert {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  } .technoAlert > p {
+    font-family: "Roboto";
+  }
+  /* style transisi */
+  .technoTransition {
+    animation: melambat 1s;
+  }
+
+  @keyframes melambat {
+    from { opacity: 0%;}
+    to { opacity: 100%;}
+  }
+
+  @media (max-width: 400px) {
+    .teknoKonten {
+      display: block;
+    } .logoGrid {
+      width: 90%;
+      height: auto;
+      margin: auto;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    } .technoAlert {
+      text-align:justify;
+      font-size: small;
+      left: 2%;
+      width: auto;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+    } .technoAlert > h4 {
+      font-size: 400%;
+    }
+
+  }
+
+  @media (min-width: 400px) and (max-width: 500px) {
+    .teknoKonten {
+      display: block;
+    } .logoGrid {
+      top: 600%;
+      width: 80%;
+      height: auto;
+      margin: auto;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    } .technoAlert {
+      text-align: center;
+      font-size: small;
+      top: 650%;
+      width: auto;
+      left: 2%;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+    } .technoAlert > h4 {
+      font-size: 400%;
+    } .border > p {
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 700px){
+    .teknoKonten {
+        display: block;
+      } .logoGrid {
+        width: auto;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      } .technoAlert {
+        text-align: center;
+        font-size: small;
+        width: auto;
+        left: 2%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+
+  @media (min-width: 700px) and (max-width: 800px){
+    .teknoKonten {
+        display: block;
+      } .logoGrid {
+        width: auto;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      } .technoAlert {
+        text-align:justify;
+        font-size: small;
+        width: auto;
+        left: 2%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+
+  /* our project global desktop ver*/
+  .ourProject {
+      display: block;
+  }
+  .ourProject > h2 {
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  .row-project {
+    width: 100%;
+  } .row-project > img {
+    width: 50%;
+  } .quickScooter {
+    float: right;
+  } .clothes {
+    float: left;
+  } .ketProject {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 5%;
+  } .k1 {
+    float: right;
+  } .k2 {
+    float: left;
+  } .r2 {
+      display: flex;
+  } .ketProject > button {
+    padding: 5px;
+    width: 20%;
+    background-color: rgb(68, 65, 255);
+    color: white;
+    font-weight: bold;
+    font-family: "Fira Sans";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    border: none;
+  } .ketProject > button:hover {
+    background-color: rgb(58, 56, 223);
+    cursor: pointer;
+  }
+
+  @media (max-width: 400px) {
+    .ourProject {
+      display: block;
+    } .row-project {
+      display: block;
+    } .row-project > img {
+      width: 100%;
+    }
+    .clothes {
+      width: 100%;
+      float: unset;
+    } .quickScooter {
+      width: 100%;
+      float: unset;
+    } .ketProject {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 400px) and (max-width: 800px){
+    .ourProject {
+      display: block;
+    } .row-project {
+      display: block;
+    } .row-project > img {
+      width: 100%;
+    }
+    .clothes {
+      width: 100%;
+      float: unset;
+    } .quickScooter {
+      width: 100%;
+      float: unset;
+    } .ketProject {
+      width: 100%;
+    }
+  }
+
+  /* footer */
+.container-fluid {
+  width: 100%;
+  margin: 0;
+}
+footer {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}

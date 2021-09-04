@@ -1,0 +1,49 @@
+
+    {
+    "html": {
+        "id": 1,
+        "title": "HTML",
+        "adjective": "Hypertext Markup Language (HTML) adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet. Ini dapat dibantu oleh teknologi seperti Cascading Style Sheets (CSS) dan bahasa scripting seperti JavaScript dan VBScript. Peramban internet menerima dokumen HTML dari server web atau dari penyimpanan lokal dan membuat dokumen menjadi halaman web multimedia. HTML menggambarkan struktur halaman web secara semantik dan isyarat awal yang disertakan untuk penampilan dokumen."
+    },
+    "css": {
+        "id": 2,
+        "title": "CSS",
+        "adjective": "Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman. Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa berkas (file).[1] Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML.[1]"
+    },
+    "javascript": {
+        "id": 3,
+        "title": "Javascript",
+        "adjective": "JavaScript (/ˈdʒɑːvəˌskrɪpt/[8]) (disingkat JS) adalah bahasa pemrograman tingkat tinggi dan dinamis.[9] JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer (IE), Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT.[10] JavaScript merupakan salah satu teknologi inti World Wide Web selain HTML dan CSS. JavaScript membantu membuat halaman web interaktif dan merupakan bagian aplikasi web yang esensial."
+    },
+    "mysql": {
+        "id": 4,
+        "title": "MySQL",
+        "adjective": "MySQL adalah sebuah implementasi dari sistem manajemen basis data relasional (RDBMS) yang didistribusikan secara gratis di bawah lisensi GPL (General Public License). ... MySQL sebenarnya merupakan turunan salah satu konsep utama dalam basisdata yang telah ada sebelumnya; SQL (Structured Query Language)."
+    },
+    "expressjs": {
+        "id": 5,
+        "title": "express.JS",
+        "adjective": "Express.js , atau hanya Express , adalah kerangka aplikasi web back end untuk Node.js , dirilis sebagai perangkat lunak sumber terbuka dan gratis di bawah Lisensi MIT . Ini dirancang untuk membangun aplikasi web dan API . [3] Ini telah disebut sebagai kerangka kerja server standar de facto untuk Node.js.Penulis aslinya, TJ Holowaychuk , menggambarkannya sebagai server yang terinspirasi Sinatra , [5] yang berarti relatif minim dengan banyak fitur yang tersedia sebagai plugin. Express adalah komponen back-end dari tumpukan pengembangan populer seperti tumpukan MEAN , MERN atau MEVN , bersama dengan perangkat lunak database MongoDB dan kerangka kerja atau pustaka front-end JavaScript."
+    },
+    "mongodb": {
+        "id": 6,
+        "title": "MongoDB",
+        "adjective": "MongoDB (dari 'humongous') adalah sistem basis data berorentasi dokumen lintas platform. Diklasifikasikan sebagai basis data 'NoSQL', MongoDB menghindari struktur basis data relasional tabel berbasis tradisional yang mendukung JSON seperti dokumen dengan skema dinamis (MongoDB menyebutnya sebagai format BSON), membuat integrasi data dalam beberapa jenis aplikasi lebih mudah dan lebih cepat. Dirilis di bawah Server Side Public License, MongoDB adalah perangkat lunak bebas dan sumber terbuka."
+    },
+    "bootstrap": {
+        "id": 7,
+        "title": "Bootstrap",
+        "adjective": "Bootstrap adalah kerangka kerja CSS yang sumber terbuka dan bebas untuk merancang situs web dan aplikasi web. Kerangka kerja ini berisi templat desain berbasis HTML dan CSS untuk tipografi, formulir, tombol, navigasi, dan komponen antarmuka lainnya, serta juga ekstensi opsional JavaScript. Tidak seperti kebanyakan kerangka kerja web lainnya, kerangka kerja ini hanya fokus pada pengembangan front-end saja."
+    },
+    "nodejs": {
+        "id": 8,
+        "title": "Node.JS",
+        "adjective": "Bootstrap adalah kerangka kerja CSS yang sumber terbuka dan bebas untuk merancang situs web dan aplikasi web. Kerangka kerja ini berisi templat desain berbasis HTML dan CSS untuk tipografi, formulir, tombol, navigasi, dan komponen antarmuka lainnya, serta juga ekstensi opsional JavaScript. Tidak seperti kebanyakan kerangka kerja web lainnya, kerangka kerja ini hanya fokus pada pengembangan front-end saja."
+    },
+    "reactjs": {
+        "id": 9,
+        "title": "React.JS",
+        "adjective":"Node.js adalah platform perangkat lunak pada sisi peladen dan aplikasi jaringan. Ditulis dengan bahasa JavaScript dan dijalankan pada Windows, Mac OS X, dan Linux tanpa perubahan kode program. Node.js memiliki pustaka peladen HTTP sendiri sehingga memungkinkan untuk menjalankan peladen web tanpa menggunakan program peladen web seperti Apache atau Lighttpd."
+    }
+}
+
